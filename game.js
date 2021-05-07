@@ -97,7 +97,7 @@ var Starfield = function(speed,opacity,numStars,clear) {
 
   // Now draw a bunch of random 2 pixel
   // rectangles onto the offscreen canvas
-  starCtx.fillStyle = "#FFF";
+  starCtx.fillStyle = "#0F0";
   starCtx.globalAlpha = opacity;
   for(var i=0;i<numStars;i++) {
     starCtx.fillRect(Math.floor(Math.random()*stars.width),
